@@ -1,0 +1,84 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:ital@0;1&display=swap');
+
+.bg-logo {
+    background-color: #0a0b0d;
+    color: white;
+}
+
+.row-custom {
+    content: "";
+    display: table;
+    clear: both;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    width: 24.5vw;
+}
+
+
+.logo-container {
+    width: 100px;
+    height: 100px;
+    background-color: #0a0b0d;
+}
+
+.header {
+    background-color: #0a0b0d;
+}
+
+.title-container {
+    width: 100%;
+    height: 100px;
+    background-color: #0a0b0d;
+}
+
+.title-header {
+    font-size: 50px;
+    color: #9d4edd;
+    padding-left: 20px;
+    font-family: 'Playfair Display';
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.url {
+    width: 100%;
+    background-color: #0a0b0d;
+    border: none;
+    border: 2.5px #606060 solid;
+    font-family: Poppins;
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: .3s;
+    color: white;
+}
+
+.url:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+    background-color: white;
+    color: black;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.bg-img {
+    background-image: url('Images/bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}

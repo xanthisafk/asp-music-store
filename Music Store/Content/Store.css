@@ -1,0 +1,171 @@
+﻿.auto-style2 {
+    width: 100%;
+    height: 345px;
+}
+
+.auto-style4 {
+    width: 345px;
+    text-align: center;
+}
+
+.auto-style5 {
+    height: 34px;
+    text-align: center;
+}
+
+.auto-style7 {
+    height: 105px;
+    text-align: center;
+}
+
+.auto-style8 {
+    height: 50px;
+    text-align: center;
+}
+
+.auto-style9 {
+    text-align: center;
+    height: 35px;
+}
+
+#store-container {
+    margin: auto;
+    margin-top: 2%;
+    width: 90%;
+    padding: 10px;
+}
+
+#wallet-container {
+    margin-top: 5px;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    margin: 10px;
+    transition: all .4s ease;
+}
+
+    .image:hover {
+        box-shadow: 10px 10px rgba(60,60,60,.25);
+    }
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 50px;
+    color: red;
+    transition: all ease .3s;
+    display: block;
+    margin-left: 20px;
+}
+
+    .title:hover {
+        color: orangered;
+        text-shadow: 10px 10px rgba(0,0,0,.25);
+    }
+
+.artist {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    transition: all ease .3s;
+    cursor: default;
+}
+
+    .artist:hover {
+        color: azure;
+        text-shadow: 5px 5px rgba(0,0,0,.25);
+    }
+
+.legend {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.price {
+    color: limegreen;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.tf {
+    color: lightgoldenrodyellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.button-c {
+    width: 50%;
+    height: 2em;
+    font-size: 20px;
+    background-color: mediumspringgreen;
+    transition: all ease .3s;
+    border: none;
+}
+
+.button-c:hover {
+    background-color: springgreen;
+}
+
+#sort-container {
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+.dl {
+    border: none;
+    width: 200px;
+    text-align: center;
+    padding: 3px;
+    --webkit-appearance: none;
+    background-image: url("/Images/down-arrowhead.png");
+    background-color: bisque;
+    border-radius: 5px;
+    font-family: Poppins;
+    outline: none;
+    margin-left: 20px;
+}
+
+.dl:focus {
+    outline: none;
+}
+
+.sbtn {
+    width: 50px;
+    margin-left: 10px;
+    padding: 4px;
+    background-color: coral;
+    border: none;
+    border-radius: 3px;
+    font-family: Poppins;
+}
+
+.sbtn:hover {
+    background-color: lightcoral;
+}
+
+#wallet {
+    float: right;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.wallet-img {
+    height: 30px;
+    width: 30px;
+}
+
+.wallet-text {
+    font-family: Poppins;
+    font-size: 16px;
+}

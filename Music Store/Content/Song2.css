@@ -1,0 +1,95 @@
+﻿.tbl {
+    margin: auto;
+}
+
+.alb-art {
+    width: 500px;
+    height: 500px;
+    border: 2px ridge gold;
+    padding: 2px;
+}
+
+.legend {
+    color: aliceblue;
+    font: 16px Poppins;
+}
+
+.id-lbl {
+    font: 50px Poppins;
+    color: red;
+    display: block
+}
+
+.tb {
+    border: none;
+    border-bottom: white solid 2px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-size: 40px;
+    font-family: Poppins;
+    padding: 3px;
+    text-align: center;
+    display: block;
+}
+
+.tb:focus {
+    outline: none;
+    border-bottom-color: aquamarine;
+}
+
+hr {
+    opacity: 0;
+}
+
+.dl-artist {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    font-family: Poppins;
+    outline: none;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.dl-song {
+    width: 400px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+text {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.fetch-btn {
+    width: 100px;
+    padding: 9px;
+}
+
+.cb {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.cb-t {
+    font-family: Poppins;
+    margin-right: 10px;
+}
+
+.upt-btn {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-family: Poppins;
+    padding: 5px;
+    transition: all ease .4s;
+}
+
+    .upt-btn:hover {
+        background-color: aqua;
+    }

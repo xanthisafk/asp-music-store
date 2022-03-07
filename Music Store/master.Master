@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.Master.cs" Inherits="Music_Store.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" type="image/x-icon" href="Content/Images/logo.ico" />
+    <link rel="stylesheet" type="text/css" href="Content/Master.css" />
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css"/>
+    <script src="Scripts/jquery-3.6.0.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    
+
+<body class="bg-logo bg-img">
+    <form id="form1" runat="server">
+        <div class="header">
+            
+            <table class="header">
+                <tr>
+                    <td class="logo-container">
+                        <a href="/Home.aspx"><asp:Image ID="Logo" runat="server"  ImageUrl="~/Content/Images/logo.png" Height="100px" Width="100px"/></a></td>
+                    <td class="title-container">
+                        <a href="/Home.aspx"><asp:Label ID="title" runat="server" Text="Music Shop" CssClass="title-header" Font-Italic="true"></asp:Label></a></td>
+                </tr>
+            </table>
+            
+        </div>
+
+        <div class="row-custom">
+            <div class="column text-center"><asp:Button runat="server" ID="homeBTN" PostBackUrl="~/Home.aspx" Text="Home" CssClass="url" /></div>
+            <div class="column text-center"><asp:Button runat="server" ID="StoreBTN" PostBackUrl="~/Store.aspx" Text="Store" CssClass="url" /></div>
+            <div class="column text-center"><asp:Button runat="server" ID="AuthBTN" PostBackUrl="~/Auth.aspx" Text="Login/Register" CssClass="url" /></div>
+            <div class="column text-center"><asp:Button runat="server" ID="SupportBTN" PostBackUrl="~/Support.aspx" Text="Support" CssClass="url" /></div>           
+        </div>
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>

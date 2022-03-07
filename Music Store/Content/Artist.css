@@ -1,0 +1,83 @@
+﻿.flexed-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dl {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 390px;
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 5px;
+}
+
+.dl:focus {
+    outline: none;
+}
+
+.fth-btn {
+    width: 100px;
+    padding: 3px 5px 2px 5px;
+}
+.img {
+    border: 2px ridge gold;
+    padding: 2px;
+}
+
+#keeper {
+    margin-left: 20px;
+}
+
+.id-lbl {
+    display: block;
+    font-family: Poppins;
+    font-size: 72px;
+    color: red;
+    text-align: center;
+}
+
+.name-tb {
+    display: block;
+    width: 500px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    backdrop-filter: blur(5px);
+    font-family: Poppins;
+    font-size: 40px;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+.name-tb:focus {
+    outline: none;
+    border-bottom-color: aquamarine;
+}
+
+.upd-btn {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-family: Poppins;
+    padding: 10px;
+    transition: all ease .4s;
+}
+
+.upd-btn:hover {
+    background-color: aqua;
+}
+
+.mtt-10 {
+    margin-top: 10px;
+}
+
+text{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}

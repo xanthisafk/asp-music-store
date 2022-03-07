@@ -1,0 +1,38 @@
+﻿.flexed-div {
+    margin-top: 10px;
+    display: flex;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.content {
+    justify-self: stretch;
+    flex-grow: 1;
+}
+
+    .content > input[type=image] {
+        width: 33.3vw;
+        transition: all ease .4s;
+        filter: grayscale(40%);
+        border: none;
+        border-bottom: 1px groove gray;
+    }
+
+        .content > input[type=image]:hover {
+            filter: grayscale(0);
+        }
+
+.title {
+    font: 100% Poppins;
+    color: red;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin: 10px 0 0 10px;
+    font-family: Poppins;
+}
