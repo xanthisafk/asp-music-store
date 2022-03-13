@@ -69,6 +69,12 @@ namespace Music_Store
             SqlCommand cmd = new SqlCommand(q, con);
             con.Open();
             string ow = (string)cmd.ExecuteScalar();
+
+            if (ow.Length == 0)
+            {
+                return;
+            }
+
             ow = ow.Remove(ow.Length - 1);
             q = $"SELECT Id, Title, Artist, Art FROM Songs WHERE Id IN ({ow})";
 

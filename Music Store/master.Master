@@ -11,6 +11,11 @@
     <script src="Scripts/jquery-3.6.0.js" type="text/javascript"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style>
+        .logo-img {
+    width:  200px;
+}
+    </style>
 </head>
     
 
@@ -23,7 +28,8 @@
                     <td class="logo-container">
                         <a href="/Home.aspx"><asp:Image ID="Logo" runat="server"  ImageUrl="~/Content/Images/logo.png" Height="100px" Width="100px"/></a></td>
                     <td class="title-container">
-                        <a href="/Home.aspx"><asp:Label ID="title" runat="server" Text="Music Shop" CssClass="title-header" Font-Italic="true"></asp:Label></a></td>
+                            <asp:ImageButton ID="logo_img" CssClass="logo-img" PostBackUrl="~/Home.aspx" ImageUrl="~/Content/Images/logo.svg" runat="server" />
+                    </td>
                 </tr>
             </table>
             

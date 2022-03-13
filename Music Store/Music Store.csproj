@@ -144,6 +144,7 @@
     <Content Include="Content\Images\down-arrowhead.png" />
     <Content Include="Content\Images\logo.ico" />
     <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\logo.svg" />
     <Content Include="Content\Images\noimg.jpg" />
     <Content Include="Content\Images\wallet.png" />
     <Content Include="Content\Master.css" />
@@ -151,6 +152,7 @@
     <Content Include="Content\Song.css" />
     <Content Include="Content\Song2.css" />
     <Content Include="Content\Store.css" />
+    <Content Include="Content\Support.css" />
     <Content Include="Home.aspx" />
     <Content Include="img.ico" />
     <Content Include="Profile.aspx" />
